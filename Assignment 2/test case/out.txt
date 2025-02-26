@@ -1,0 +1,35 @@
+Statistics about i2.txt :
+#Words                  : 240
+#Sentences              : 17
+#Words/#Sentences       : 14.12
+#Characters             : 1366
+#Characters (Just Words): 1094
+The Shortest Word       : a                        (0.0458)
+The Longest Words       :
+entertainment            (0.0042)
+international            (0.0042)
+Words and Frequencies   :
+the                     : 0.0750
+of                      : 0.0542
+a                       : 0.0458
+to                      : 0.0333
+las                     : 0.0292
+vegas                   : 0.0292
+and                     : 0.0250
+in                      : 0.0250
+john                    : 0.0208
+is                      : 0.0167
+canyon                  : 0.0125
+city                    : 0.0125
+hotels                  : 0.0125
+lot                     : 0.0125
+popular                 : 0.0125
+trip                    : 0.0125
+visit                   : 0.0125
+all                     : 0.0083
+casinos                 : 0.0083
+downtown                : 0.0083
+during                  : 0.0083
+especially              : 0.0083
+he                      : 0.0083
+his                     : 0.0083

@@ -1,0 +1,11 @@
+CREATE_TABLE students id,name,age,major,courseId
+CREATE_TABLE teachers id,name,major,courseId
+INSERT students 1,Jane Smith,22,EE,BBM101
+INSERT students 2,Bob Wilson,21,CS,BBM401
+INSERT students 3,Ted Wilson,21,CS,BBM371
+INSERT teachers 1,David Moses,CS,BBM101
+INSERT teachers 2,Ian Clark,CS,BBM371
+INSERT teachers 3,Bruce Bowen,CS,BBM401
+COUNT students WHERE {"major": "CS"}
+COUNT teachers WHERE {"ids": 2}
+COUNT students WHERE *

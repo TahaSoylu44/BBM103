@@ -1,0 +1,18 @@
+CREATE_TABLE students id,name,age,major,courseId
+CREATE_TABLE teachers id,name,major,courseId
+INSERT students 1,Jane Smith,22,EE,BBM101
+INSERT students 2,Bob Wilson,21,CS,BBM401
+INSERT students 3,Ted Wilson,21,CS,BBM371
+INSERT teachers 1,David Moses,CS,BBM101
+INSERT teachers 2,Ian Clark,CS,BBM371
+INSERT teachers 3,Bruce Bowen,CS,BBM401
+SELECT teachers name,major WHERE {"id": "1"}
+SELECT teachers name,major WHERE {"name": "Ian Clark"}
+INSERT test 1,John Doe,20,CS
+INSERT stundetsd 4,Alpay,22,CS,BBM101
+INSERT teachersd 2,Jaret Harper,CS,BBM101y
+SELECT students id,name WHERE {"job": "CS"}
+SELECT students job WHERE {"major": "CS"}
+SELECT students job,surname,age WHERE {"major": "CS", "age": "21"}
+SELECT students major WHERE {"job": "CS"}
+SELECT teachers job WHERE {"id": "2"}

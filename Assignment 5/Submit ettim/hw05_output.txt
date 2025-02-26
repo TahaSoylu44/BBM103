@@ -1,0 +1,116 @@
+=== Bubble Sorted Results ===
+Warehouse_ID  Priority_Level  Package_Count
+----------------------------------------
+WH-039        1               1            
+WH-052        1               2            
+WH-063        1               17           
+WH-081        1               22           
+WH-051        1               23           
+WH-008        1               27           
+WH-062        1               27           
+WH-016        1               29           
+WH-055        1               32           
+WH-046        1               34           
+WH-088        1               46           
+WH-056        1               52           
+WH-065        1               53           
+WH-071        1               58           
+WH-004        1               62           
+WH-030        1               64           
+WH-079        1               78           
+WH-021        1               82           
+WH-014        1               96           
+WH-069        2               1            
+WH-082        2               6            
+WH-097        2               9            
+WH-083        2               13           
+WH-096        2               15           
+WH-026        2               22           
+WH-028        2               28           
+WH-044        2               35           
+WH-012        2               37           
+WH-089        2               38           
+WH-006        2               42           
+WH-035        2               44           
+WH-032        2               47           
+WH-025        2               50           
+WH-053        2               59           
+WH-042        2               60           
+WH-023        2               65           
+WH-034        2               65           
+WH-043        2               65           
+WH-090        2               69           
+WH-072        2               70           
+WH-095        2               71           
+WH-001        2               79           
+WH-024        2               80           
+WH-075        2               80           
+WH-080        2               81           
+WH-036        2               85           
+WH-058        2               94           
+WH-100        2               98           
+WH-074        2               100          
+WH-029        3               2            
+WH-020        3               6            
+WH-003        3               12           
+WH-031        3               16           
+WH-047        3               23           
+WH-061        3               24           
+WH-068        3               28           
+WH-038        3               37           
+WH-013        3               44           
+WH-017        3               51           
+WH-018        3               51           
+WH-060        3               62           
+WH-070        3               72           
+WH-015        3               74           
+WH-002        3               76           
+WH-011        3               82           
+WH-027        3               100          
+WH-093        3               100          
+WH-077        4               2            
+WH-057        4               6            
+WH-099        4               6            
+WH-092        4               8            
+WH-076        4               9            
+WH-078        4               11           
+WH-098        4               11           
+WH-066        4               15           
+WH-005        4               37           
+WH-009        4               37           
+WH-064        4               42           
+WH-007        4               43           
+WH-037        4               44           
+WH-054        4               54           
+WH-091        4               56           
+WH-041        4               68           
+WH-067        4               70           
+WH-048        4               91           
+WH-084        4               95           
+WH-094        5               1            
+WH-010        5               16           
+WH-073        5               21           
+WH-059        5               24           
+WH-040        5               32           
+WH-086        5               32           
+WH-087        5               34           
+WH-045        5               50           
+WH-085        5               84           
+WH-033        5               89           
+WH-049        5               89           
+WH-050        5               91           
+WH-019        5               92           
+WH-022        5               94           
+
+=== Comparison Results ===
+Merge and Bubble sorts are identical.
+Quick and Bubble sorts are identical.
+
+=== Sort Performance Metrics ===
+Bubble priority sort iteration count: 4950
+Merge priority sort n_of right array is smaller than left: 102
+Quick priority sort recursive step count: 4
+
+Bubble package count sort iteration count: 1021
+Merge package count n_of right array is smaller than left: 168
+Quick package count sort recursive step count: 59

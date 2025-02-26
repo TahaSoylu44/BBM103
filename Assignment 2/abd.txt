@@ -1,0 +1,6 @@
+Statistics about i1.txt :
+#Words                  : 509
+#Sentences              : 21
+#Words/#Sentences       : 24.24
+#Characters             : 3011
+#Characters (Just Words): 2411
